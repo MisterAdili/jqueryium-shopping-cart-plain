@@ -1,7 +1,7 @@
 $(document).ready(function(){
   
   var sum = function (){
-    var subtotals = $(".item-subtotal");
+    var subtotals = $("#subtotal");
     var prices = $(".item-price");
     var qtys = $(".quantity");
     
@@ -9,7 +9,7 @@ $(document).ready(function(){
       var price = Number($(prices[i]).text());
       var qty = Number($(qtys[i]).val();
       var subtotal = price * qty;
-      $(subtotals[i]).text(price); 
+      $($(subtotals)[i]).text("5");
     }
   }
   

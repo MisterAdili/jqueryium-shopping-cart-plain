@@ -1,6 +1,6 @@
 $(document).ready(function(){
   
-  var sum() = function (){
+  var sum = function (){
     $('#subtotal').text("5");  
   }
   

@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+  sum();
+  
   var sum() = function{
     $('#item-subtotal').text("5");
   }

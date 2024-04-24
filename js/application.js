@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  sum();
+  $('#item-subtotal').text("5");
   
   var sum() = function{
     $('#item-subtotal').text("5");
@@ -9,4 +9,4 @@ $(document).ready(function(){
   $(document).on('click', '#calculate', function() {
     sum();
   });
-}
+});

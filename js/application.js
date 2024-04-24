@@ -1,5 +1,5 @@
 $(document).ready(function(){
   $(document).on('click', '#calculate', function() {
-    $('.item-subtotal').text("5");
+    $($('.item-subtotal')[0]).text("5");
   }
 }

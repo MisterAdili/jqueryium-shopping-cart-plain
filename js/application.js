@@ -6,7 +6,7 @@ $(document).ready(function(){
     
     for (i = 0; i<items.length; i++){
       var price = $($('.item')[i]).children(.item-price).text();
-      var subtotal = qty[i] * price;
+      var subtotal = Number($(qty[i]).val();
       $($('.item-subtotal')[i]).text(subtotal); 
     }
   }

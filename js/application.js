@@ -19,5 +19,6 @@ $(document).ready(function(){
   $(document).on('click', '.calculate', function() {
     sum();
     $(".item-subtotal").text("2");
+    alert("At least this fucking works!");
   });
 });

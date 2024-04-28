@@ -18,5 +18,6 @@ $(document).ready(function(){
   
   $(document).on('click', '.calculate', function() {
     sum();
+    $(".item-subtotal").text("2");
   });
 });

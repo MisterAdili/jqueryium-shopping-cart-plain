@@ -10,7 +10,9 @@ $(document).ready(function(){
       var qty = Number($(qtys[i]).val();
       var subtotal = price * qty;
       $($(subtotals)[i]).text("5");
+      $(#subtotal).text("4");
     }
+    $(#subtotal).text("3");
   }
   
   

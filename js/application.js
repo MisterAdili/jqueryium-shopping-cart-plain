@@ -16,7 +16,7 @@ $(document).ready(function(){
   }
   
   
-  $(document).on('click', '#calculate', function() {
+  $(document).on('click', '.calculate', function() {
     sum();
   });
 });

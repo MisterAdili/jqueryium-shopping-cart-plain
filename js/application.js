@@ -13,6 +13,7 @@ $(document).ready(function(){
       $(".item-subtotal").text("4");
     }
     $(".item-subtotal").text("3");
+    return;
   }
   
   
